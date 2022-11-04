@@ -27,7 +27,7 @@ def main():
 
         # if user imputed a number out of range
         if user_num_int < 0 or user_num_int > 9:
-            print("Please enter a number within the specified range!")
+            print(f"{user_num_string} is not a number! Please enter a valid input")
 
         # user imputed number within range
         else:
