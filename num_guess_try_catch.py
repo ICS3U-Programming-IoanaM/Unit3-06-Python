@@ -8,6 +8,7 @@
 
 import random
 
+
 def main():
     # variables
     user_num_string = input("Please enter a number from 0 to 9: ")
@@ -33,7 +34,7 @@ def main():
             # user guessed right
             if user_num_int == rand_num:
                 print(f"Correct! {user_num_int} is the right number!")
-            
+
             # user didn't input right number
             else:
                 print(f"Incorrect! The right number is {rand_num}.")
@@ -41,6 +42,7 @@ def main():
     # final message to user
     finally:
         print("thank you for playing!")
+
 
 if __name__ == "__main__":
     main()
