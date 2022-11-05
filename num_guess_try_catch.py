@@ -20,14 +20,14 @@ def main():
 
     # if the user didn't input a number
     except ValueError:
-        print("Please input a whole number!")
+        print(f"{user_num_string} is not a number! Please enter a valid input")
 
     # if user imputed an integer
     else:
 
         # if user imputed a number out of range
         if user_num_int < 0 or user_num_int > 9:
-            print(f"{user_num_string} is not a number! Please enter a valid input")
+            print("Please input a number between 0 and 9 number!")
 
         # user imputed number within range
         else:
