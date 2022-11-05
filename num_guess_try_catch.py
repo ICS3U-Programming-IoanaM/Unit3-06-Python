@@ -27,7 +27,7 @@ def main():
 
         # if user imputed a number out of range
         if user_num_int < 0 or user_num_int > 9:
-            print("Please input a number between 0 and 9 number!")
+            print("Please input a number between 0 and 9!")
 
         # user imputed number within range
         else:
